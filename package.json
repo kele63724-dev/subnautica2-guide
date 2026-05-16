@@ -1,0 +1,14 @@
+{
+  "name": "subnautica2-guide",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "深海迷航2 玩家攻略 Wiki",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
+}

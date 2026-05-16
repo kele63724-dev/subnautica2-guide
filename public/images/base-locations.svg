@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" font-family="'Microsoft YaHei','PingFang SC',sans-serif">
+  <rect width="600" height="450" fill="#0a1a2e" rx="8"/>
+  <text x="300" y="28" fill="#fff" font-size="16" font-weight="bold" text-anchor="middle">基地选址推荐 —《深海迷航2》</text>
+
+  <!-- Early -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="0" width="560" height="85" rx="8" fill="rgba(0,230,150,0.08)" stroke="#00e676" stroke-width="1"/>
+    <text x="16" y="20" fill="#00e676" font-size="13" font-weight="bold">🟢 前期基地 — 海藻森林 / 浅水区</text>
+    <text x="16" y="38" fill="#fff" font-size="10">位置：靠近救生舱，水深 20-40m 平坦区域</text>
+    <text x="16" y="54" fill="#7baaaa" font-size="9">优势：钛/石英/铜近 · 太阳能充足 · 安全无掠食者 · 快速往返</text>
+    <text x="16" y="70" fill="#ffaa40" font-size="9">建议配置：舱体 + 装配台 + 处理器 + 太阳能板 + 储物柜</text>
+  </g>
+
+  <!-- Mid -->
+  <g transform="translate(20, 148)">
+    <rect x="0" y="0" width="560" height="85" rx="8" fill="rgba(0,180,220,0.08)" stroke="#00b4dc" stroke-width="1"/>
+    <text x="16" y="20" fill="#00b4dc" font-size="13" font-weight="bold">🔵 中期基地 — 珊瑚礁带边缘 / 热液喷口区入口</text>
+    <text x="16" y="38" fill="#fff" font-size="10">位置：珊瑚礁带与热液喷口交界处，水深 100-180m</text>
+    <text x="16" y="54" fill="#7baaaa" font-size="9">优势：银/金/硫近 · 辐射多个biome · 通往Zezuran沙漠方便</text>
+    <text x="16" y="70" fill="#ffaa40" font-size="9">建议配置：蝌蚪坞 + 扫描室 + 生物实验室 + 水力发电机</text>
+  </g>
+
+  <!-- Late -->
+  <g transform="translate(20, 246)">
+    <rect x="0" y="0" width="560" height="85" rx="8" fill="rgba(255,170,40,0.08)" stroke="#ffaa40" stroke-width="1"/>
+    <text x="16" y="20" fill="#ffaa40" font-size="13" font-weight="bold">🟠 后期前哨 — 遗迹废墟</text>
+    <text x="16" y="38" fill="#fff" font-size="10">位置：遗迹废墟安全角落，水深 250-300m</text>
+    <text x="16" y="54" fill="#7baaaa" font-size="9">优势：天青石/氯铜矿 · 接近蓝图 · Axum天文台 · Roots峡谷</text>
+    <text x="16" y="70" fill="#ffaa40" font-size="9">建议配置：蝌蚪坞 + 改装站 + 扫描室 + 生物反应堆</text>
+  </g>
+
+  <!-- End -->
+  <g transform="translate(20, 344)">
+    <rect x="0" y="0" width="560" height="85" rx="8" fill="rgba(255,82,82,0.08)" stroke="#ff5252" stroke-width="1"/>
+    <text x="16" y="20" fill="#ff5252" font-size="13" font-weight="bold">🔴 终局前哨 — 枯萎边缘 / 深层区</text>
+    <text x="16" y="38" fill="#fff" font-size="10">位置：枯萎边缘安全点位或遗迹深层，水深 350m+</text>
+    <text x="16" y="54" fill="#7baaaa" font-size="9">优势：传导晶体/锶/陨铁 · 剧情终点前沿 · 终局探索</text>
+    <text x="16" y="70" fill="#ffaa40" font-size="9">建议配置：蝌蚪坞 + 改装站 + 种植箱(食物) + 急救包制造</text>
+  </g>
+</svg>

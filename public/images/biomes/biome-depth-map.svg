@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" font-family="'Microsoft YaHei','PingFang SC',sans-serif">
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a6e8a"/>
+      <stop offset="25%" stop-color="#0a4a6e"/>
+      <stop offset="55%" stop-color="#062a4a"/>
+      <stop offset="100%" stop-color="#020d1a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="900" fill="url(#ocean)"/>
+
+  <!-- Title -->
+  <text x="400" y="28" fill="#fff" font-size="16" font-weight="bold" text-anchor="middle">《深海迷航2》生物群系深度分布</text>
+  <text x="400" y="44" fill="#7baaaa" font-size="10" text-anchor="middle">抢先体验版 v0.1 · Ariadne Arm 区域</text>
+
+  <!-- Depth scale -->
+  <g fill="#4a8aaa" font-size="11">
+    <text x="10" y="90">0m</text>
+    <text x="10" y="170">100m</text>
+    <text x="10" y="250">200m</text>
+    <text x="10" y="330">300m</text>
+    <text x="10" y="410">400m+</text>
+  </g>
+
+  <!-- Depth grid lines -->
+  <g stroke="#1a4460" stroke-width="0.5" stroke-dasharray="4,4">
+    <line x1="60" y1="120" x2="800" y2="120"/>
+    <line x1="60" y1="200" x2="800" y2="200"/>
+    <line x1="60" y1="280" x2="800" y2="280"/>
+    <line x1="60" y1="360" x2="800" y2="360"/>
+  </g>
+
+  <!-- ===== 海藻森林 0-60m ===== -->
+  <g transform="translate(80, 70)">
+    <rect x="0" y="0" width="680" height="38" rx="6" fill="rgba(0,230,150,0.15)" stroke="rgba(0,230,150,0.4)"/>
+    <text x="12" y="24" fill="#fff" font-size="13" font-weight="bold">🌿 海藻森林 (Kelp Forest)</text>
+    <text x="240" y="24" fill="#7baaaa" font-size="11">0-60m</text>
+    <text x="340" y="24" fill="#8ae0c0" font-size="11">🟢 安全 | 钛·铜·石英</text>
+    <text x="540" y="24" fill="#ffaa40" font-size="10">⭐ 出生点</text>
+  </g>
+
+  <!-- ===== 珊瑚礁带 0-200m ===== -->
+  <g transform="translate(80, 120)">
+    <rect x="0" y="0" width="680" height="50" rx="6" fill="rgba(255,130,180,0.12)" stroke="rgba(255,150,180,0.35)"/>
+    <text x="12" y="22" fill="#fff" font-size="13" font-weight="bold">🪸 珊瑚礁带 (Coral Gardens)</text>
+    <text x="240" y="22" fill="#7baaaa" font-size="11">0-200m</text>
+    <text x="340" y="22" fill="#ff99aa" font-size="11">🟡 低危 | 石英·铜·银·金·硫</text>
+    <text x="540" y="22" fill="#ffaa40" font-size="10">🔑 前期核心区</text>
+    <text x="12" y="40" fill="#7baaaa" font-size="10">含海葵丘陵、凝灰岩塔、Zezuran沙漠/热洞 (200-250m 有锂)</text>
+  </g>
+
+  <!-- ===== 稀疏平原 100-300m ===== -->
+  <g transform="translate(80, 190)">
+    <rect x="0" y="0" width="680" height="38" rx="6" fill="rgba(180,160,200,0.12)" stroke="rgba(200,180,220,0.35)"/>
+    <text x="12" y="24" fill="#fff" font-size="13" font-weight="bold">🏜️ 稀疏平原 (Sparse Plains)</text>
+    <text x="240" y="24" fill="#7baaaa" font-size="11">100-300m</text>
+    <text x="340" y="24" fill="#ccaaee" font-size="11">🔴 高危 | 铜·钛·铅</text>
+    <text x="540" y="24" fill="#ff5252" font-size="10">☠ 收藏家利维坦</text>
+  </g>
+
+  <!-- ===== 热液喷口区 150-300m+ ===== -->
+  <g transform="translate(80, 245)">
+    <rect x="0" y="0" width="680" height="38" rx="6" fill="rgba(255,120,40,0.12)" stroke="rgba(255,140,60,0.35)"/>
+    <text x="12" y="24" fill="#fff" font-size="13" font-weight="bold">🌋 热液喷口区 (Hydrothermal Vents)</text>
+    <text x="240" y="24" fill="#7baaaa" font-size="11">150-300m+</text>
+    <text x="340" y="24" fill="#ff9966" font-size="11">🔴 高危 | 金·硫·锂</text>
+    <text x="540" y="24" fill="#ff5252" font-size="10">🧬 需耐热基因</text>
+  </g>
+
+  <!-- ===== 遗迹废墟 200-400m+ ===== -->
+  <g transform="translate(80, 300)">
+    <rect x="0" y="0" width="680" height="50" rx="6" fill="rgba(0,180,220,0.1)" stroke="rgba(0,180,220,0.3)"/>
+    <text x="12" y="22" fill="#fff" font-size="13" font-weight="bold">🏛️ 遗迹废墟 (Overgrown Ruins)</text>
+    <text x="240" y="22" fill="#7baaaa" font-size="11">200-400m+</text>
+    <text x="340" y="22" fill="#88ccff" font-size="11">🟠 中高危 | 天青石·氯铜矿</text>
+    <text x="540" y="22" fill="#ffaa40" font-size="10">📜 蓝图·剧情</text>
+    <text x="12" y="40" fill="#7baaaa" font-size="10">Needler巢穴 · Axum天文台 · 发电厂 · Roots峡谷 (300m+)</text>
+  </g>
+
+  <!-- ===== 枯萎边缘区 250m+ ===== -->
+  <g transform="translate(80, 365)">
+    <rect x="0" y="0" width="680" height="38" rx="6" fill="rgba(100,180,60,0.1)" stroke="rgba(100,180,60,0.25)"/>
+    <text x="12" y="24" fill="#fff" font-size="13" font-weight="bold">🦠 枯萎边缘区 (B Nomadic Edge)</text>
+    <text x="240" y="24" fill="#7baaaa" font-size="11">250m+</text>
+    <text x="340" y="24" fill="#88bb66" font-size="11">🟠 中高危 | 传导晶体·锶</text>
+    <text x="540" y="24" fill="#ffaa40" font-size="10">⚠ 枯萎病变异</text>
+  </g>
+
+  <!-- ===== 虚空 ===== -->
+  <g transform="translate(80, 425)">
+    <rect x="0" y="0" width="680" height="30" rx="6" fill="rgba(255,0,0,0.06)" stroke="rgba(255,0,0,0.2)" stroke-dasharray="4,2"/>
+    <text x="12" y="20" fill="#ff4444" font-size="12" font-weight="bold">☠ 虚空 (The Void) — 地图边界 · 利维坦领地 · 必死勿入</text>
+  </g>
+
+  <!-- Vehicle depth indicators -->
+  <g transform="translate(700, 155)">
+    <text x="-30" y="5" fill="#00d4ff" font-size="9" text-anchor="end">← 蝌蚪号基础 (250m)</text>
+  </g>
+  <g transform="translate(700, 290)">
+    <text x="-30" y="5" fill="#ffaa40" font-size="9" text-anchor="end">← 蝌蚪号Mk2 (400m+)</text>
+  </g>
+  <g transform="translate(700, 360)">
+    <text x="-30" y="5" fill="#00e676" font-size="9" text-anchor="end">← 潜水电梯 (300m+)</text>
+  </g>
+</svg>

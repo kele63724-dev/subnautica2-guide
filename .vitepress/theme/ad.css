@@ -1,0 +1,160 @@
+/* ═══════════ 广告位布局 ═══════════ */
+.ad-layout-wrapper {
+  position: relative;
+}
+
+/* 两侧广告基底 */
+.ad-side {
+  position: fixed;
+  top: 80px;           /* nav 高度 56px + 留白 */
+  z-index: 10;
+  display: none;       /* 默认隐藏，大屏才显示 */
+  pointer-events: auto;
+}
+
+.ad-inner {
+  width: 160px;
+  min-height: 600px;
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.ad-inner:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* 广告标签 */
+.ad-label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 4px 0;
+  font-size: 10px;
+  color: var(--vp-c-text-3);
+  background: var(--vp-c-bg-mute);
+  border-bottom: 1px solid var(--vp-c-divider);
+  letter-spacing: 2px;
+}
+
+/* 广告投放区域 */
+.ad-slot {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+/* 占位样式（替换真实广告代码后删除） */
+.ad-placeholder {
+  text-align: center;
+  color: var(--vp-c-text-3);
+}
+
+.ad-placeholder-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+  opacity: 0.4;
+}
+
+.ad-placeholder-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+  margin-bottom: 2px;
+}
+
+.ad-placeholder-size {
+  font-size: 10px;
+  color: var(--vp-c-brand-1);
+  font-family: monospace;
+  margin-bottom: 6px;
+}
+
+.ad-placeholder-hint {
+  font-size: 10px;
+  opacity: 0.5;
+  line-height: 1.4;
+}
+
+/* ═══════════ 响应式断点 ═══════════ */
+
+/* ≥1600px — 两侧都显示 */
+@media (min-width: 1600px) {
+  .ad-side {
+    display: block;
+  }
+
+  .ad-left {
+    left: calc((100vw - 1440px) / 2 - 180px);
+  }
+
+  .ad-right {
+    right: calc((100vw - 1440px) / 2 - 180px);
+  }
+}
+
+/* 1440~1600px — 内容两侧紧贴 */
+@media (min-width: 1440px) and (max-width: 1599px) {
+  .ad-side {
+    display: block;
+  }
+
+  .ad-left {
+    left: calc((100vw - 1380px) / 2 - 170px);
+  }
+
+  .ad-right {
+    right: calc((100vw - 1380px) / 2 - 170px);
+  }
+}
+
+/* 1280~1440px — 只显示右侧 */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .ad-right {
+    display: block;
+    right: 20px;
+  }
+}
+
+/* ═══════════ 底部横幅（移动端） ═══════════ */
+.ad-bottom-banner {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: var(--vp-c-bg-soft);
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+.ad-bottom-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  padding: 4px 12px;
+}
+
+.ad-bottom-placeholder {
+  font-size: 12px;
+  color: var(--vp-c-text-3);
+  text-align: center;
+}
+
+/* 低于 1280px — 隐藏两侧 显示底部 */
+@media (max-width: 1279px) {
+  .ad-side {
+    display: none;
+  }
+  .ad-bottom-banner {
+    display: block;
+  }
+}
