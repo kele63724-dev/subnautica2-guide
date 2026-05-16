@@ -33,7 +33,7 @@ const guideSidebarKo = [
 ]
 
 export default defineConfig({
-  base: '/subnautica2-guide/',
+  base: '/',
   ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg' }],
@@ -45,7 +45,7 @@ export default defineConfig({
     theme: { light: 'github-light', dark: 'one-dark-pro' }
   },
   sitemap: {
-    hostname: 'https://kele63724-dev.github.io'
+    hostname: 'https://ludokfo.com'
   },
 
   locales: {
