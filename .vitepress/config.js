@@ -45,7 +45,7 @@ export default defineConfig({
     theme: { light: 'github-light', dark: 'one-dark-pro' }
   },
   sitemap: {
-    hostname: 'https://example.com'
+    hostname: 'https://kele63724-dev.github.io'
   },
 
   locales: {
