@@ -45,7 +45,7 @@ export default defineConfig({
     theme: { light: 'github-light', dark: 'one-dark-pro' }
   },
   sitemap: {
-    hostname: 'https://ludokfo.com'
+    hostname: 'https://www.ludokfo.com'
   },
 
   locales: {
