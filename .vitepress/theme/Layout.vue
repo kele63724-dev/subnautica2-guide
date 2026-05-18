@@ -7,11 +7,9 @@
     <div class="ad-bottom-banner">
       <span class="ad-label">广告</span>
       <div class="ad-bottom-slot">
-        <script type="text/javascript">
-    aclib.runAutoTag({
-        zoneId: 'rwbhyqu8tc',
-    });
-</script>
+        <div class="ad-bottom-placeholder">
+          📢  Google AdSense  ·  320 × 100  ·  替换为广告代码
+        </div>
       </div>
     </div>
   </div>

@@ -3,11 +3,12 @@
     <div class="ad-inner">
       <span class="ad-label">广告</span>
       <div class="ad-slot">
-        <script type="text/javascript">
-    aclib.runAutoTag({
-        zoneId: 'rwbhyqu8tc',
-    });
-</script>
+        <div class="ad-placeholder">
+          <div class="ad-placeholder-icon">📢</div>
+          <p class="ad-placeholder-title">Google AdSense</p>
+          <p class="ad-placeholder-size">160 × 600</p>
+          <p class="ad-placeholder-hint">将此区域替换为广告代码</p>
+        </div>
       </div>
     </div>
   </aside>
